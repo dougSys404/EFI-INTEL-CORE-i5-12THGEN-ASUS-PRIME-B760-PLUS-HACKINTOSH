@@ -1,26 +1,73 @@
-# EFI-INTEL-CORE-i5-12THGEN-ASUS-PRIME-B760-PLUS-HACKINTOSH
+# EFI for Intel Core i5 12th Gen + ASUS Prime B760-Plus | Hackintosh
 
+## 🇬🇧 English Version
 
-# Hardware setup:
+## 💻 Hardware Setup
 
-ASUS Prime B760-Plius
-Kingston Fury Beats RGB 16GB 6000MHz DDR5
-Intel Core i5-12400 12º Gen
-AMD Radeon RX 6600 8GB GDDR - ASRock
-Fenvi BCM94360 Wi-Fi and Bluetooth
+- **Motherboard:** ASUS Prime B760-Plus  
+- **Memory:** Kingston Fury Beast RGB 16GB DDR5 6000MHz  
+- **Processor:** Intel Core i5-12400 (12th Gen)  
+- **GPU:** AMD Radeon RX 6600 8GB GDDR6 (ASRock)  
+- **Wi-Fi/Bluetooth:** Fenvi BCM94360 (Native macOS support)
 
-Boot - Works fine
-Sound: Works fine by cabe, headset and Bluetooth
-Wi-Fi and bluetooth - Works Natively
-Airdrop, handoff, continuity - Works Fine
+## 🚀 Boot & macOS Functionality
 
-MacOS Versions tested for this EFI: MacOS Ventura.
+- ✅ **Boot:** Works perfectly  
+- ✅ **Audio:** Working via cable, headset, and Bluetooth  
+- ✅ **Wi-Fi & Bluetooth:** Fully functional natively  
+- ✅ **AirDrop, Handoff, Continuity:** Fully working  
 
+## 🖥️ macOS Compatibility
 
-# After install, don’t forget to set:
+- Tested with **macOS Ventura**
 
-SystemSerialNumber
-MLB
-SystemUUID
-ROM
-USB Ports: Mapping made for motherboard and PC Case Gamemax Diamond 3601
+## ⚙️ Post-Installation Notes
+
+After installing macOS, don’t forget to configure the following values in your `config.plist`:
+
+- `SystemSerialNumber`  
+- `MLB`  
+- `SystemUUID`  
+- `ROM`  
+
+### USB Mapping
+
+- USB ports are mapped for the **ASUS Prime B760-Plus** motherboard and **Gamemax Diamond 3601** PC case.
+
+---
+
+## 🇧🇷 Versão em Português
+
+# EFI para Intel Core i5 12ª Geração + ASUS Prime B760-Plus | Hackintosh
+
+## 💻 Configuração do Hardware
+
+- **Placa-mãe:** ASUS Prime B760-Plus  
+- **Memória:** Kingston Fury Beast RGB 16GB DDR5 6000MHz  
+- **Processador:** Intel Core i5-12400 (12ª Geração)  
+- **Placa de Vídeo:** AMD Radeon RX 6600 8GB GDDR6 (ASRock)  
+- **Wi-Fi/Bluetooth:** Fenvi BCM94360 (compatível nativamente com macOS)
+
+## 🚀 Boot e Funcionalidade no macOS
+
+- ✅ **Boot:** Funciona perfeitamente  
+- ✅ **Áudio:** Funciona via cabo, headset e Bluetooth  
+- ✅ **Wi-Fi e Bluetooth:** Funcionando nativamente  
+- ✅ **AirDrop, Handoff, Continuity:** Funcionando corretamente  
+
+## 🖥️ Compatibilidade com macOS
+
+- Testado com o **macOS Ventura**
+
+## ⚙️ Pós-Instalação
+
+Após instalar o macOS, não se esqueça de configurar os seguintes valores no seu `config.plist`:
+
+- `SystemSerialNumber`  
+- `MLB`  
+- `SystemUUID`  
+- `ROM`  
+
+### Mapeamento de USB
+
+- As portas USB foram mapeadas para a placa-mãe **ASUS Prime B760-Plus** e o gabinete **Gamemax Diamond 3601**.
